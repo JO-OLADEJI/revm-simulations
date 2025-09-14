@@ -1,0 +1,8 @@
+[package]
+name = "revm-simulation"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+revm = { version = "28.0.1", features = ["optional_no_base_fee"] }
+tokio = { version = "1.47.1", features = ["full"] }
