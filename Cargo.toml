@@ -4,5 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+alloy = "1.0.30"
 revm = { version = "28.0.1", features = ["optional_no_base_fee"] }
 tokio = { version = "1.47.1", features = ["full"] }
